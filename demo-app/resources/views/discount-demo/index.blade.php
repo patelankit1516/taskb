@@ -301,7 +301,7 @@
                 <div class="text-sm text-gray-600 mt-1">View package docs</div>
             </a>
 
-            <a href="/discount-demo" 
+            <a href="{{ route('discount-demo.index') }}" 
                class="bg-white rounded-lg shadow-lg p-6 text-center hover:bg-gradient-to-br hover:from-green-50 hover:to-yellow-50 transition transform hover:scale-105 cursor-pointer">
                 <div class="text-4xl mb-3">🔄</div>
                 <div class="font-bold text-lg text-gray-800">Refresh</div>
